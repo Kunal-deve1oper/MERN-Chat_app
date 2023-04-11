@@ -8,6 +8,7 @@ const messageRoutes = require("./routes/messageRoutes");
 
 const app = express();
 
+
 dotenv.config();
 connectDB();
 app.use(express.json());
